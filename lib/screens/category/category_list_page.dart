@@ -5,6 +5,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'components/staggered_category_card.dart';
 
+//doc
+//cria pagina de listagem de categoria,
+//incluindo aqui tambem mocks para demonstracao da funcionalidade do widget
 class CategoryListPage extends StatefulWidget {
   @override
   _CategoryListPageState createState() => _CategoryListPageState();

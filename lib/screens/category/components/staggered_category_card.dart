@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+//doc
+//Este arquivo define o elemento 'estatico' CategoryCard e 
+//o elemento elementos de controle e mudaca de estado dos cards da  entidade category
 class CategoryCard extends StatelessWidget {
   final Color begin;
   final Color end;
@@ -110,7 +112,9 @@ class CategoryCard extends StatelessWidget {
     );
   }
 }
+// fim primeira classe
 
+// classe reponsavel por guardar estado mutavel de card escalonado de categoria
 class StaggeredCardCard extends StatefulWidget {
   final Color begin;
   final Color end;
@@ -125,6 +129,7 @@ class StaggeredCardCard extends StatefulWidget {
   _StaggeredCardCardState createState() => _StaggeredCardCardState();
 }
 
+//class que controla o estado do card de categoria e atribui metodos para mutacao de estados
 class _StaggeredCardCardState extends State<StaggeredCardCard>
     with TickerProviderStateMixin {
   AnimationController _controller;
