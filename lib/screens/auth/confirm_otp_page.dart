@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_text_field/pin_code_text_field.dart';
 
+//doc
+// class que define pagina de confirmacao de otp
+// pagina mutavel
+// class que gerencia estados da pagina (_ConfirmOtpPageState)
+// retorna um detector de gestos composto pelos widgets que formulam a pagina
 class ConfirmOtpPage extends StatefulWidget {
   @override
   _ConfirmOtpPageState createState() => _ConfirmOtpPageState();

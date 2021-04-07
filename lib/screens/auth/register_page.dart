@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 
 import 'forgot_password_page.dart';
 
+//doc
+//class de registro de usuario
+//class _RefisterPageState cria gerencia estados atraves de subWidgets da pagina
 class RegisterPage extends StatefulWidget {
   @override
   _RegisterPageState createState() => _RegisterPageState();
@@ -16,7 +19,6 @@ class _RegisterPageState extends State<RegisterPage> {
   TextEditingController password = TextEditingController(text: '12345678');
 
   TextEditingController cmfPassword = TextEditingController(text: '12345678');
-
 
   @override
   Widget build(BuildContext context) {

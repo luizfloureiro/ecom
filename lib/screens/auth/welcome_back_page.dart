@@ -4,7 +4,11 @@ import 'package:flutter/material.dart';
 
 import 'register_page.dart';
 
-class                            WelcomeBackPage extends StatefulWidget {
+//doc
+// classe que define pagina de retorna a app [saudacao]
+// pagina mutavel
+// objetos _WelcomeBackPageState retornam um estrutura de pagina mutavel para festao de estados 
+class WelcomeBackPage extends StatefulWidget {
   @override
   _WelcomeBackPageState createState() => _WelcomeBackPageState();
 }

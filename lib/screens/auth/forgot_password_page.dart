@@ -6,7 +6,10 @@ import 'package:country_code_picker/country_code_picker.dart';
 
 
 import 'confirm_otp_page.dart';
-
+//doc 
+//Pagina de recuperacao de  senha
+//_ForgotPasswordPageState retornar um detector de gestos no intuito de
+//gerenciar gestos que mudam o estado dos widgets da pagina
 class ForgotPasswordPage extends StatefulWidget {
   @override
   _ForgotPasswordPageState createState() => _ForgotPasswordPageState();
