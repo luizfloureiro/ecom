@@ -3,7 +3,12 @@ import 'dart:io';
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+// doc
+/***
+ classe que define widget mutavel da pagina de configuracao de notificacoes
+ classe _NotificationSettingsPageState que gerencia estrutura de estado da
+ pagina de notificacoes, aqui uma lista simples com radio buttons
+ ***/
 class NotificationSettingsPage extends StatefulWidget {
   @override
   _NotificationSettingsPageState createState() =>

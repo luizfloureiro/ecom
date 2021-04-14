@@ -3,7 +3,12 @@ import 'dart:io';
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+// doc
+/***
+ classe que define widget mutavel da pagina de Legal e About
+ classe _LegalAboutPageState responsavel por criar
+ estrutura de estado L&A cria somente uma lista de items
+ ***/
 class LegalAboutPage extends StatefulWidget {
   @override
   _LegalAboutPageState createState() => _LegalAboutPageState();

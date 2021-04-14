@@ -8,7 +8,12 @@ import 'package:ecommerce_int2/screens/settings/notifications_settings_page.dart
 import 'package:flutter/material.dart';
 
 import 'change_language_page.dart';
-
+// doc
+/***
+ classe que define widget estatica da pagina principal de configuracoes
+ listagem de funcionalidades aninhadas dentro do escopo de configuracoes
+ aqui temos uma "lista de navegaveis"
+ ***/
 class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

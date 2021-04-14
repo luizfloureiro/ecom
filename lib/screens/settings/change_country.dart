@@ -1,6 +1,11 @@
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
-
+// doc
+/***
+ classe que define widget mutavel para mudanca de pais
+ classe _ChangeCountryPageState responsavel por criar
+ estrutura de estado do widget
+ ***/
 class ChangeCountryPage extends StatefulWidget {
   @override
   _ChangeCountryPageState createState() => _ChangeCountryPageState();

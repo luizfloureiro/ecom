@@ -1,7 +1,12 @@
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+// doc
+/***
+ classe que define widget mutavel da pagina de muadnca de senha 
+ classe _ChangePasswordPageState responsavel por criar
+ estrutura de estado da pagina de troa de senha
+ ***/
 class ChangePasswordPage extends StatefulWidget {
   @override
   _ChangePasswordPageState createState() => _ChangePasswordPageState();
