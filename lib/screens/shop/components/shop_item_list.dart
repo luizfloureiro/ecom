@@ -5,6 +5,11 @@ import 'package:ecommerce_int2/screens/product/components/shop_product.dart';
 import 'package:flutter/material.dart';
 import 'package:numberpicker/numberpicker.dart';
 
+// doc
+/***
+ classe que define widget mutavel de componente, lista de items
+ aqui definida estrutura da lista de items na pagina de checkout
+ ***/
 class ShopItemList extends StatefulWidget {
   final Product product;
   final Function onRemove;

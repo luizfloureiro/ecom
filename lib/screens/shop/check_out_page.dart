@@ -8,7 +8,12 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 import 'components/credit_card.dart';
 import 'components/shop_item_list.dart';
 
-//TODO: NOT DONE. WHEEL SCROLL QUANTITY
+// doc
+/***
+ classe que define widget estatica da pagina de Checkout
+ estrutura componentes de pagamento e listagem de intens para checkout
+ rederiza item e cartoes para pagamento e um butao de confirmacao
+ ***/
 class CheckOutPage extends StatefulWidget {
   @override
   _CheckOutPageState createState() => _CheckOutPageState();

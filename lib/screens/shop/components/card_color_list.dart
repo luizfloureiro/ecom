@@ -2,6 +2,11 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/product/components/color_list.dart';
 import 'package:flutter/material.dart';
 
+// doc
+/***
+ classe que define widget mutavel de componete p/ item cartao 
+ na checkout_page
+ ***/
 class CardColorList extends StatefulWidget {
   final List<Color> colorList;
 

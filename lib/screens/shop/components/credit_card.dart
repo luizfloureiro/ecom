@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+// doc
+/***
+ classe que define widget mutavel de componete item cartao 
+ que eh utilizado para representar cartoes de credito, 
+ definidos estilo, formatacao e dados de entrada para apresentar cartoes
+ ***/
 class CreditCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
