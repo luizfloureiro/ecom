@@ -2,6 +2,12 @@ import 'dart:ui' as ui;
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
 
+//Responsavel por desenhar os backgrounds da pagina de autenticacao e da main page
+//CustomPainter é uma subclasse que implementa widgets que servem como canvas
+//e da acesso a metodos para pintar e desenhar formas no canvas
+
+//Importa app_properties.dart com as principais definicoes de cores e proporcoes
+
 class AuthBackground extends CustomPainter {
   AuthBackground({
     this.image,

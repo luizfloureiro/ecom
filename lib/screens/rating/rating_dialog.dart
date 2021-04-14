@@ -3,6 +3,11 @@ import 'package:ecommerce_int2/screens/shop/check_out_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
+//StatefulWidget que cria uma página/aba onde o usuário pode criar uma review
+//Há tambem a opção de comprar o produto após dar uma nota a ele
+
+//Importa check_out_page.dart para que o usuário possa compra-lo
+
 class RatingDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

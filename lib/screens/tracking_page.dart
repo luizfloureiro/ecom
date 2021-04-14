@@ -2,6 +2,11 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+//Cria uma pagina com background para rastreamento de todas suas compras
+//Define uma classe location que é instanciada varias vezes numa lista
+
+//Importa app_properties.dart com as principais definicoes de cores e proporcoes
+
 class TrackingPage extends StatefulWidget {
   @override
   _TrackingPageState createState() => _TrackingPageState();

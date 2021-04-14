@@ -2,6 +2,12 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+//Define um StatefulWidget para a pagina FAQ
+//A pagina contem perguntas que sao instancians da classe Panel, com titulo, descricao e um booleano de estado para expansao
+//se houver uma interacao com um painel com pergunta(titulo), o booleano troca de estado e revela ou esconde a resposta(descricao)
+
+//Importa app_properties.dart com as principais definicoes de cores e proporcoes
+
 class FaqPage extends StatefulWidget {
   @override
   _FaqPageState createState() => _FaqPageState();

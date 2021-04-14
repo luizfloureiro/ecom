@@ -4,6 +4,12 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import 'package:ecommerce_int2/screens/rating/rating_dialog.dart';
 
+//StatefulWidget que cria página mostrando reviews de outros usuários do produto
+//As reviews sao compostas do nome do reviewer, nota de 1 a 5 e mensagem
+//A aplicação tambem armazena a plataforma do reviewer e comentarios de outros usuários sobre a review
+
+//Importa rating_dialog.dart para que o usuário possa deixar um input nesta página
+
 class RatingPage extends StatefulWidget {
   @override
   _RatingPageState createState() => _RatingPageState();

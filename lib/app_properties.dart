@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//Define paleta de cores, gradientes e proporcoes utilizados frequentemente na aplicacao
+
 const Color yellow = Color(0xffFDC054);
 const Color mediumYellow = Color(0xffFDB846);
 const Color darkYellow = Color(0xffE99E22);
@@ -12,6 +14,7 @@ const LinearGradient mainButton = LinearGradient(colors: [
   Color.fromRGBO(216, 78, 16, 1),
 ], begin: FractionalOffset.topCenter, end: FractionalOffset.bottomCenter);
 
+//shadow define um widget BoxShadow para castas efeitos de sombra em volta de uma caixa
 const List<BoxShadow> shadow = [
   BoxShadow(color: Colors.black12, offset: Offset(0, 3), blurRadius: 6)
 ];
