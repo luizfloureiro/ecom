@@ -7,6 +7,17 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../app_properties.dart';
 
+/***
+ * StatefulWidget para criar página para enviar pagamentos
+ * contem uma aba de pesquisa entre uma lista onde ficam todos os seus contatos
+ * assim como uma lista com os mais frequentes
+ * Importa user para acesso a atributos do usuário
+ * request_amount_page para chamada
+ * api_service para acesso a API
+ * e app_properties com padrões da aplicação
+ ***/
+
+
 class SendPage extends StatefulWidget {
   @override
   _SendPageState createState() => _SendPageState();

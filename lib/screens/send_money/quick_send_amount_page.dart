@@ -3,6 +3,15 @@ import 'package:ecommerce_int2/models/user.dart';
 import 'package:ecommerce_int2/screens/request_money/receive_page.dart';
 import 'package:flutter/material.dart';
 
+/***
+ * StatefulWidget para criar página para enviar pagamentos
+ * Nesta página se escolhe o valor para envio e analise do balanço
+ * request_amount_page para chamada
+ * api_service para acesso a API
+ * e app_properties com padrões da aplicação
+ ***/
+
+
 class QuickSendAmountPage extends StatelessWidget {
   final User user;
 
