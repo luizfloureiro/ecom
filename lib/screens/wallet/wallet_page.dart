@@ -9,6 +9,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+/***
+ * StatefulWidget que cria página da carteira do usuário
+ * Contem o atual balçanço da conta
+ * assim como acesso as abas/páginas para pagamentos e requisitos de pogamentos
+ * Importa user para acesso a atributos do usuário
+ * api_service para acesso a API
+ * e app_properties com padrões da aplicação
+ ***/
+
 class WalletPage extends StatefulWidget {
   @override
   _WalletPageState createState() => _WalletPageState();

@@ -7,6 +7,16 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../app_properties.dart';
 
+/***
+ * StatefulWidget para criar página para fazer a requisição
+ * contem uma aba de pesquisa entre uma lista onde ficam todos os seus contatos contatos
+ * assim como uma lista com os mais frequentes
+ * Importa user para acesso a atributos do usuário
+ * request_amount_page para chamada
+ * api_service para acesso a API
+ * e app_properties com padrões da aplicação
+ ***/
+
 class RequestPage extends StatefulWidget {
   @override
   _RequestPageState createState() => _RequestPageState();

@@ -3,6 +3,13 @@ import 'package:ecommerce_int2/models/user.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
+/***
+ * StatefulWidget que cria página para confirmação de pagamento
+ * Exibe código QR da transação
+ * Importa user para acesso a atributos do usuário
+ * e app_properties com padrões da aplicação
+ ***/
+
 class ReceivePaymentPage extends StatelessWidget {
   final User user;
 
