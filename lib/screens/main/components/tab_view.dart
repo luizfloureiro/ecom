@@ -6,6 +6,11 @@ import 'package:flutter/material.dart';
 import 'category_card.dart';
 import 'recommended_list.dart';
 
+//doc
+/***
+  StatelessWidget que define componente de visualizacao de tabelas
+  de categorias em forma de lista de cartoes de categoria  
+  ***/
 class TabView extends StatelessWidget {
   List<Category> categories = [
     Category(

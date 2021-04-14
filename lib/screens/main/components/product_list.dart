@@ -5,6 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_page_indicator/flutter_page_indicator.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
+// doc
+/***
+  StatelessWidget ProductList define listagem de produtos,
+  definindo apresentacao de listagem de cartoes de produto
+  StatelessWidget ProductCard define caracteristicas do cartao de produto
+  ***/
 class ProductList extends StatelessWidget {
   List<Product> products;
 

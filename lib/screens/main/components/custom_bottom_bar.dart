@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+//doc
+/***
+  StatelessWidget que define a barra inferior
+  apresentada na pagina principal da aplicacao,
+  composicao de items navegaveis em uma linha
+  ***/
 class CustomBottomBar extends StatelessWidget {
   final TabController controller;
 

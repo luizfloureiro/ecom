@@ -5,7 +5,14 @@ import 'package:ecommerce_int2/screens/settings/settings_page.dart';
 import 'package:ecommerce_int2/screens/tracking_page.dart';
 import 'package:ecommerce_int2/screens/wallet/wallet_page.dart';
 import 'package:flutter/material.dart';
-
+//doc
+/***
+ * StatelessWidget que cria página de Perfil
+ * pagina composto com scaffold que estrutura 3 sub componentes
+ * 1 - foto de perfil e nome
+ * 2 - linha de navegaveis com funcionalidade relacionadas ao perfil
+ * 3 - lista de navegaveis {Settings, Help, Faq}
+ ***/
 class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -32,7 +39,7 @@ class ProfilePage extends StatelessWidget {
                 ),
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 16.0),
-                  decoration: BoxDecoration(
+                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(8),
                           topRight: Radius.circular(8),

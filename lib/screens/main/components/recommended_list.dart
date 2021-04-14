@@ -4,6 +4,11 @@ import 'package:ecommerce_int2/screens/product/product_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
+//doc
+/***
+  StatelessWidget que define apresentacao em box da listagem
+  de produtos recomendados
+  ***/
 class RecommendedList extends StatelessWidget {
   List<Product> products = [
     Product('assets/bag_1.png', 'Bag', 'Beautiful bag', 2.33),

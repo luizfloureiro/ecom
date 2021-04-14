@@ -1,7 +1,12 @@
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/main/main_page.dart';
 import 'package:flutter/material.dart';
-
+// doc
+/***
+ classe que define widget mutavel da pagina de Introducao da App
+ _IntroPageState cria estado da pagina contendo subpaginas de componentes
+ de introducao p/ App
+ ***/
 class IntroPage extends StatefulWidget {
   @override
   _IntroPageState createState() => _IntroPageState();

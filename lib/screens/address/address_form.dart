@@ -1,6 +1,9 @@
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
-
+//doc
+/***
+ classe que define widget estatica do formulario de cadastro de endereco
+ ***/
 class AddAddressForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

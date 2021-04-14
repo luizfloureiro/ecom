@@ -2,7 +2,12 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/rating/rating_page.dart';
 import 'package:ecommerce_int2/screens/tracking_page.dart';
 import 'package:flutter/material.dart';
-
+//doc
+/***
+ * StatelessWidget que cria página de noficacoes gerais do usuário
+ * apresenta diferentes tipos de componentes dentro de uma listagem de
+ * items, mudando o tipo de componente apresentado pelo estados o item
+ ***/
 class NotificationsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

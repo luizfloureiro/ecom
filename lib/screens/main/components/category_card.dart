@@ -1,6 +1,11 @@
 import 'package:ecommerce_int2/models/category.dart';
 import 'package:flutter/material.dart';
 
+// doc
+/***
+  StatelessWidget que define cartao para categoria
+  definicao de estilo do componente para pagina principal da app
+  ***/
 class CategoryCard extends StatelessWidget {
 
   final Category category;

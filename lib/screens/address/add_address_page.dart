@@ -2,7 +2,11 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/address/address_form.dart';
 import 'package:ecommerce_int2/screens/select_card_page.dart';
 import 'package:flutter/material.dart';
-
+//doc
+/***
+ classe que define widget estatica da pagina para inclusao de endereco
+ formulario de cadastro de endereco
+ ***/
 class AddAddressPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

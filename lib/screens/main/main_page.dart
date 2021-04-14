@@ -15,6 +15,13 @@ import 'components/custom_bottom_bar.dart';
 import 'components/product_list.dart';
 import 'components/tab_view.dart';
 
+//doc
+/***
+  StatefullWidget que define a pagina principal da aplicacao.
+  pagina composta por: custom_bottom_bar, product_list e tab_view
+  definido aqui tambem uma classe a parte para genrenciar os componentes 
+  invocados e o estado do widget.
+  ***/
 class MainPage extends StatefulWidget {
   @override
   _MainPageState createState() => _MainPageState();
