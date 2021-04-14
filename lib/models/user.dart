@@ -1,3 +1,9 @@
+/***
+ * Definição da classe usuário, seus atributos
+ * assim como suas subclassses e respectivos atributos
+ * para serem instanciadas como objetos na aplicação
+ ***/
+
 class User {
   String gender;
   Name name;

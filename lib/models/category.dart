@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class Category{
   // Modelo de objeto,
-  // define a entidade que sera utilizado majoriatariamente nas telas
+  // define a entidade que sera utilizado majoritariamente nas telas
   // de categoria: category_list_page
   Color begin;
   Color end;

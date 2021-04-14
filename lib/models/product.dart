@@ -1,3 +1,7 @@
+/***
+ * Definição da classe produto e seus atributos
+ ***/
+
 class Product{
   String image;
   String name;
