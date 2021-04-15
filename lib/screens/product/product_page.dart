@@ -7,6 +7,13 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'components/product_display.dart';
 import 'view_product_page.dart';
 
+
+//doc
+/***
+  classe que define widget mutavel para a pagina de produto
+  estado é construido por objetos do tipo _ProductPageState
+  definida estutura da pagina de produto, na construcao de um objeto Scafold 
+ ***/
 class ProductPage extends StatefulWidget {
   final Product product;
 

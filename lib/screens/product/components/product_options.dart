@@ -5,6 +5,12 @@ import 'package:flutter/material.dart';
 
 import 'shop_bottomSheet.dart';
 
+//doc
+/***
+  classe define widget estatico p/ compor 
+  representacao das opcoes de produto
+  controi um objeto do tipo SizedBox
+***/
 class ProductOption extends StatelessWidget {
   final GlobalKey<ScaffoldState> scaffoldKey;
   final Product product;

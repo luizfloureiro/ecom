@@ -2,6 +2,12 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
+//doc
+/***
+  classe que define widget mutavel de avaliacao do produto
+  estado é construido por objetos do tipo _RatingBottomSheetState
+  _RatingBottomSheetState retorna objetos de Container
+ ***/
 class RatingBottomSheet extends StatefulWidget {
   @override
   _RatingBottomSheetState createState() => _RatingBottomSheetState();

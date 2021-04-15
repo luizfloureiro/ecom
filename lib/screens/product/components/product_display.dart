@@ -3,6 +3,12 @@ import 'package:ecommerce_int2/models/product.dart';
 import 'package:ecommerce_int2/screens/rating/rating_page.dart';
 import 'package:flutter/material.dart';
 
+// doc
+/***
+  classe que define display para objetos do tipo produto
+  esta classe constroi um objeto do tipo Stack que eh utilizado para melhor
+  aninhar sub componentes graficos
+  ***/
 class ProductDisplay extends StatelessWidget {
   final Product product;
 

@@ -1,6 +1,12 @@
 import 'package:ecommerce_int2/models/product.dart';
 import 'package:flutter/material.dart';
 
+//doc
+/***
+  classe que define componente estatico usado para estruturar o cartao
+  de produto, retorna um componente retangular tocavel que estrutura a apresentacao
+  basica de um cartao para produto
+  ***/
 class ProductCard extends StatelessWidget {
   final Product product;
 

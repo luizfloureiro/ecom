@@ -3,6 +3,11 @@ import 'package:ecommerce_int2/models/product.dart';
 import 'package:ecommerce_int2/screens/product/components/product_card.dart';
 import 'package:flutter/material.dart';
 
+//doc
+/***
+  classe que define widget estatico do componente de "mais informacao"
+  sobre produto
+  ***/
 class MoreProducts extends StatelessWidget {
   final List<Product> products = [
     Product(

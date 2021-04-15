@@ -5,6 +5,12 @@ import 'package:flutter/material.dart';
 
 import 'shop_product.dart';
 
+//doc
+/***
+  classe que define widget mutavel 
+  estado é construido por objetos do tipo _RatingBottomSheetState
+  _ShopBottomSheetState retorna objetos de Container
+ ***/
 class ShopBottomSheet extends StatefulWidget {
   @override
   _ShopBottomSheetState createState() => _ShopBottomSheetState();

@@ -2,6 +2,12 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/models/product.dart';
 import 'package:flutter/material.dart';
 
+// doc
+/***
+  classe que define widget estatico
+  esta classe constroi um objeto do tipo Container que eh utilizado para melhor
+  combinacao de sub componentes display
+  ***/
 class ShopProduct extends StatelessWidget {
   final Product product;
   final Function onRemove;

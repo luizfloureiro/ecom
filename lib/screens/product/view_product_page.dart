@@ -9,6 +9,13 @@ import 'components/color_list.dart';
 import 'components/more_products.dart';
 import 'components/product_options.dart';
 
+
+//doc
+/***
+  classe que define widget mutavel da visualizacao da pagina de produto
+  estado é construido por objetos do tipo _ViewProductPageState
+  _ViewProductPageState retorna uma estrutura Scafold com uma lista de produtos
+ ***/
 class ViewProductPage extends StatefulWidget {
   final Product product;
 

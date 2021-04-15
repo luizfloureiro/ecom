@@ -1,6 +1,12 @@
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:flutter/material.dart';
 
+//doc
+/***
+  classe que define widget mutavel define lista de objetos Color
+  O estada do lista é gerencia do por _ColorListState que constroi
+  um objeto SizedBox 
+***/
 class ColorList extends StatefulWidget {
   final List<Color> colorList;
 
