@@ -2,6 +2,11 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/payment/promo_item.dart';
 import 'package:flutter/material.dart';
 
+//doc
+/***
+  Pagina de nao pagamento
+  classe _UnpaidPageState cria estado mutavel com estrutura da pagina de nao pagamento
+  ***/
 class UnpaidPage extends StatefulWidget {
   @override
   _UnpaidPageState createState() => _UnpaidPageState();

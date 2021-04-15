@@ -4,6 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:math' as math;
 
+//doc
+/***
+  classe definidora de widget mutavel que estrutura pagina de pagamento
+  Define estado atraves da class _PaymentPageState, sendo o objeto construido
+  por essa classe gestora de estado uma estrutura de pagina composta por card,
+  um sixe_box e um bortao
+***/
 class PaymentPage extends StatefulWidget {
   @override
   _PaymentPageState createState() => _PaymentPageState();

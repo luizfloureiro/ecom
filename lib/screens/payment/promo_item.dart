@@ -4,6 +4,11 @@ import 'package:ecommerce_int2/screens/product/components/color_list.dart';
 import 'package:ecommerce_int2/screens/product/components/shop_product.dart';
 import 'package:flutter/material.dart';
 
+// doc
+/***
+  Componente estatico PromoItem retorna estilo e composicao de subitems para
+  repesentacao de item dentro de um objeto container
+  ***/
 class PromoItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
