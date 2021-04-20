@@ -4,6 +4,13 @@ import 'dart:math' as math;
 
 import 'package:flutter/services.dart';
 
+/***
+ * StatefulWidget que criaa página para selecionar cartão do pagamento
+ * Nesta página o usuário escolhe, dentro de conjunto previamente adicionado, de cartãos para pagamento
+ * Há tambem a opção de adicinar um novo cartão
+ * importa app_properties com padrões da aplicação
+ ***/
+
 class SelectCardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

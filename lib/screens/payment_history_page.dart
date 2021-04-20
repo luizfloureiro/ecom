@@ -3,6 +3,14 @@ import 'package:ecommerce_int2/models/user.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+/***
+ * StatefulWidget para criar página com histórico de pagamentos
+ * O histórico pode ser filtrado através de datas
+ * mostra a outra pessoa ou loja no pagamento, valor e data/horário
+ * api_service para acesso a API
+ * e user.dart para acesso aos atributos de usuário
+ ***/
+
 class PaymentHistoryPage extends StatefulWidget {
   @override
   _PaymentHistoryPageState createState() => _PaymentHistoryPageState();

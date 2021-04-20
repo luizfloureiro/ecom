@@ -2,6 +2,11 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/auth/welcome_back_page.dart';
 import 'package:flutter/material.dart';
 
+/***
+ * StatefulWidget para criar página splash quando o app é iniciado no dispositivo
+ * Utiliza a classe state para ter acesso a biblioteca responsável pela animação
+ ***/
+
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();

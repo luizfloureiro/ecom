@@ -5,6 +5,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:rubber/rubber.dart';
 
+/***
+ * StatefulWidget para criar página de busca dentre o inventário
+ * Nesta página se procura um item atráves de filtros, que ficam numa aba no canto inferior,
+ * ou atraves do nome
+ * importa view_product_page para acessar a página de descrição do produto apos acha-lo
+ * produc.dart para acesso aos atributos de produtos
+ * e app_properties com padrões da aplicação
+ ***/
+
 class SearchPage extends StatefulWidget {
   @override
   _SearchPageState createState() => _SearchPageState();
