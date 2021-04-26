@@ -2,6 +2,7 @@ import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/faq_page.dart';
 import 'package:ecommerce_int2/screens/payment/payment_page.dart';
 import 'package:ecommerce_int2/screens/settings/settings_page.dart';
+import 'package:ecommerce_int2/screens/support_chat.dart';
 import 'package:ecommerce_int2/screens/tracking_page.dart';
 import 'package:ecommerce_int2/screens/wallet/wallet_page.dart';
 import 'package:flutter/material.dart';
@@ -99,10 +100,13 @@ class ProfilePage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             IconButton(
-                              icon: Image.asset('assets/icons/contact_us.png'), onPressed: () {},
+                              icon: Image.asset('assets/icons/contact_us.png'),
+                              onPressed: () => Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => SupportChatPage())),
                             ),
                             Text(
-                              'Support',
+                              'Support Chat',
                               style: TextStyle(fontWeight: FontWeight.bold),
                             )
                           ],
